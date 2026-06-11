@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Times New Roman, sans-serif;
+    line-height: 1.6;
+
+    background-image: url("imge.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header */
+
+header{
+    background: transparent;
+    color:white;
+    padding:20px;
+}
+/* 🌟 Section Background Animation */
+/* 🌿 Section */
+.choose-type{
+    text-align: center;
+    padding: 80px 20px;
+    background:transparent;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title */
+.choose-type h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #1a1a1b;
+}
+
+/* Subtitle */
+.subtitle{
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+
+/* Cards container */
+.type-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Card */
+.type-card{
+    width: 260px;
+    padding: 25px;
+    border-radius: 14px;
+
+    text-decoration: none;
+    color: #111827;
+    text-align: center;
+
+    background: rgb(216, 210, 210);
+    border: 1px solid #e5e7eb;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.type-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    border-color: #60a5fa;
+}
+
+/* Icon */
+.type-card img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* Heading */
+.type-card h3{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+/* Text */
+.type-card p{
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.5;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    padding:15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    border-radius:30px;
+    width:fit-content;
+    margin:auto;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* Explore More Button */
+.explore-btn{
+    background:white;
+    color:#2c6e49;
+    padding:10px 18px;
+    border-radius:20px;
+}
+
+/* Login Button */
+.login-btn{
+    border:2px solid white;
+    padding:8px 18px;
+    border-radius:20px;
+}
+/* Grid Layout */
+
+main{
+    display:grid;
+    gap:25px;
+    padding:25px;
+}
+
+/* Hero Section */
+
+.hero{
+    background: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 120px 20px;
+    border-radius: 10px;
+}
+
+.hero img{
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
+}
+
+/* Flexbox Cards */
+
+.features{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.about{
+    background:rgb(218, 212, 212);
+    padding:20px;
+    border-radius:10px;
+}
+
+footer{
+    background:transparent;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.hero,
+.about,
+.card{
+
+    border-radius: 10px;
+    padding: 20px;
+}
