@@ -1,85 +1,56 @@
 ﻿🌿 Eco Travel – Static Website
 📌 Project Overview
 
-Eco Travel is a simple and modern static travel website built using HTML and CSS.
-It promotes eco-friendly and responsible tourism, allowing users to explore different travel styles like adventure, relaxation, and city experiences.
+Eco Travel is a simple and modern static website built using HTML and CSS.
+It promotes eco-friendly tourism and helps users explore travel styles like adventure, relaxation, and city trips.
 
-The design focuses on a clean layout, smooth UI, and responsive sections to provide a visually appealing user experience.
+🎯 Goal
 
-🎯 Project Goal
-
-To create a static webpage using:
+Create a static webpage using:
 
 Proper HTML structure
-Semantic sections (header, main, section, footer)
+Semantic sections (header, main, footer)
 Images and icons
-Clean and readable layout using CSS
+Clean and readable CSS layout
 ✨ Features
 🧭 Navigation Bar
-Transparent and modern navigation design
-Includes links:
-Home
-About
-Features
-Contact
-Stylish buttons:
-Explore More
-Login
+Transparent modern navbar
+Links: Home, About, Features, Contact
+Buttons: Explore More, Login
 🌍 Hero Section
-Attractive introduction text
+Tagline: Explore the World Responsibly
+Focus on eco-friendly travel
+🧳 Travel Types
 
-Message:
+Users can choose:
 
-“Explore the World Responsibly”
+🏔 Adventure
+🏖 Relax
+🏙 City
 
-Focus on eco-friendly travel awareness
-🧳 Choose Travel Type Section
-
-Users can select their travel style:
-
-🏔 Adventure (mountains, trekking, outdoor activities)
-🏖 Relax (beaches, resorts, peaceful destinations)
-🏙 City (culture, nightlife, modern cities)
-
-Each option is displayed in a card layout with icons and hover effects.
+(Display cards with icons and hover effects)
 
 ℹ About Section
-Short description of Eco Travel
-Promotes sustainable tourism and responsible travel practices
+
+Short info about promoting sustainable travel
+
 📞 Footer
-Contact email information
-Copyright statement
+Contact email
+Copyright info
 🛠 Technologies Used
-HTML5 (Structure & Layout)
-CSS3 (Styling & Design)
-🎨 UI Design Highlights
-Background image-based design
-Glassmorphism-style navigation bar
-Card hover animations
-Responsive flexbox layout
-Clean typography using Times New Roman & modern styling
+HTML5
+CSS3
 📂 Project Structure
 Eco-Travel/
-│
 ├── index.html
 ├── style.css
-├── imge.jpg   (background image)
+├── imge.jpg
 └── README.md
-🚀 How to Run the Project
-Download or clone the project folder
-Make sure all files are in the same directory
-Open index.html in any browser
-Done ✅
-📚 Skills Learned
-HTML page structure
-Semantic HTML (header, section, footer)
-CSS styling and layout design
-Flexbox for card layout
-Background image handling
-UI/UX basics for web design
+🚀 How to Run
+Download project
+Open index.html
+Run in browser
 🌱 Future Improvements
-Add responsive design for mobile devices
-Add booking system UI
-Add JavaScript for interactivity
-Improve accessibility and SEO
-Add animations and transitions
+Mobile responsive design
+Add animations
+Add JavaScript features
